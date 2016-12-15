@@ -3,11 +3,10 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import web.BaseWebMobileElement;
 
 import java.util.List;
 
-public class FddPage extends BaseWebMobileElement {
+public class FddPage extends Pages {
     public FddPage(WebDriver driver) {
         super(driver, 30);
     }
@@ -32,6 +31,38 @@ public class FddPage extends BaseWebMobileElement {
 
     public WebElement stateRejected(){
         return getWebElement(By.xpath(".//*[@id='state-window-2098-1']/ul/li[5]/i"));
+    }
+
+    public WebElement commentsTab(){
+        return getWebElement((By.xpath(".//*[@id='fdd-report-detail-page']//div[3]//li[3]")));
+    }
+
+    public WebElement commentsButton(){
+        return getWebElement((By.xpath(".//*[@id='fdd-report-detail-page']//div[2]/button")));
+    }
+
+    public WebElement commentsForm(){
+        return getWebElement((By.xpath(".//*[@id='ui-id-7']//textarea")));
+    }
+
+    public WebElement saveCommentButton(){
+        return getWebElement((By.xpath(".//*[@id='ui-id-1']//button[1]")));
+    }
+
+    public WebElement cancelCommentButton(){
+        return getWebElement((By.xpath(".//*[@id='ui-id-1']//button[2]")));
+    }
+
+    public WebElement publisherField(){
+        return getWebElement((By.xpath(".//*[@id='ui-id-1']//button[2]")));
+    }
+
+    public WebElement publicDateField(){
+        return getWebElement((By.xpath(".//*[@id='ui-id-1']//button[2]")));
+    }
+
+    public WebElement savedSuccessField(){
+        return getWebElement((By.xpath(".//*[@id='ui-id-1']//button[2]")));
     }
 
 }

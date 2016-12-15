@@ -2,18 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95bfa982-7150-451a-842f-c066ecf23f4f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/features/baseFdd.feature" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/features/base_fdd.feature" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/features/base_fdd.feature" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber/formatter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber/jquery-1.8.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber/report.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-runner.RunTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/runner.RunTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/steps/StepsImplementation.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/steps/StepsImplementation.java" afterPath="$PROJECT_DIR$/src/test/java/steps/FddSteps.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pages/FddPage.class" afterPath="$PROJECT_DIR$/target/classes/pages/FddPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/steps/StepsImplementation.class" afterPath="$PROJECT_DIR$/target/test-classes/steps/StepsImplementation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" afterPath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pages/WidgetPage.class" afterPath="$PROJECT_DIR$/target/classes/pages/WidgetPage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bdd_tem_features.iml" afterPath="$PROJECT_DIR$/bdd_tem_features.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pages/FddPage.java" afterPath="$PROJECT_DIR$/src/main/java/pages/FddPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/steps/StepsImplementation.java" afterPath="$PROJECT_DIR$/src/test/java/steps/StepsImplementation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cucumber/report.js" afterPath="$PROJECT_DIR$/target/cucumber/report.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-runner.RunTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-runner.RunTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/runner.RunTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/runner.RunTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pages/WidgetPage.java" afterPath="$PROJECT_DIR$/src/main/java/pages/WidgetPage.java" />
     </list>
     <ignored path="bdd_tem_features.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,11 +50,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StepsImplementation.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/StepsImplementation.java">
+      <file leaf-file-name="FddSteps.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/FddSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46735394">
-              <caret line="98" column="55" selection-start-line="98" selection-start-column="55" selection-end-line="98" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="90" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#846#847#0" expanded="true" />
+                <element signature="e#914#915#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ToolsFdd.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tools/ToolsFdd.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#196#197#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tools.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tools/Tools.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3549884">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,15 +92,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java">
+      <file leaf-file-name="Pages.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/Pages.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+              <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#284#285#0" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#223#224#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginSteps.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/LoginSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1498#1499#0" expanded="true" />
+                <element signature="e#1567#1568#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,36 +124,30 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/FddPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="85" selection-start-line="33" selection-start-column="85" selection-end-line="33" selection-end-column="85" />
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#432#433#0" expanded="true" />
-                <element signature="e#992#993#0" expanded="true" />
-                <element signature="e#1084#1085#0" expanded="true" />
+                <element signature="e#223#224#0" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
+                <element signature="e#557#558#0" expanded="true" />
+                <element signature="e#648#649#0" expanded="true" />
+                <element signature="e#944#945#0" expanded="true" />
+                <element signature="e#1036#1037#0" expanded="true" />
+                <element signature="e#1356#1357#0" expanded="true" />
+                <element signature="e#1437#1438#0" expanded="true" />
+                <element signature="e#1481#1482#0" expanded="true" />
+                <element signature="e#1563#1564#0" expanded="true" />
+                <element signature="e#1609#1610#0" expanded="true" />
+                <element signature="e#1691#1692#0" expanded="true" />
+                <element signature="e#1732#1733#0" expanded="true" />
+                <element signature="e#1814#1815#0" expanded="true" />
+                <element signature="e#1856#1857#0" expanded="true" />
+                <element signature="e#1938#1939#0" expanded="true" />
+                <element signature="e#1982#1983#0" expanded="true" />
+                <element signature="e#2064#2065#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WidgetPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/WidgetPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_run.bat" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_run.bat">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="21" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -114,8 +156,36 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/runner/RunTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-              <folding />
+              <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ToolsWidgets.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tools/ToolsWidgets.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+              <folding>
+                <element signature="e#140#141#0" expanded="true" />
+                <element signature="e#169#170#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ToolsLogin.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tools/ToolsLogin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+              <folding>
+                <element signature="e#135#136#0" expanded="true" />
+                <element signature="e#164#165#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,16 +212,23 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/recources/feautures/base_fdd.feature" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/WidgetPage.java" />
         <option value="$PROJECT_DIR$/target/cucumber/index.html" />
         <option value="$PROJECT_DIR$/src/test/java/runner/RunTest.java" />
         <option value="$PROJECT_DIR$/test_run.bat" />
         <option value="$PROJECT_DIR$/src/test/resources/features/base_fdd.feature" />
         <option value="$PROJECT_DIR$/src/test/java/steps/FddStepsImplementation.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/baseFdd.feature" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/FddPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/StepsImplementation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/FddPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/WidgetPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/Pages.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tools/ToolsFdd.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/FddSteps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tools/ToolsWidgets.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tools/ToolsLogin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tools/Tools.java" />
       </list>
     </option>
   </component>
@@ -173,7 +250,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -198,76 +275,6 @@
               <option name="myItemId" value="bdd_tem_features" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bdd_tem_features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: net.itarray:automotion:1.4.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="automotion-1.4.0.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bdd_tem_features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: net.itarray:automotion:1.4.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="automotion-1.4.0.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bdd_tem_features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: net.itarray:automotion:1.4.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="automotion-1.4.0.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="driver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -276,38 +283,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="bdd_tem_features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bdd_tem_features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bdd_tem_features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bdd_tem_features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bdd_tem_features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cucumber" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -412,6 +387,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="drivers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bdd_tem_features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bdd_tem_features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tools" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -795,30 +796,16 @@
       <option name="number" value="Default" />
       <updated>1480500552466</updated>
     </task>
+    <task id="LOCAL-00001" summary="- working framework&#10;- added base tests">
+      <created>1481215979012</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1481215979012</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__baseFdd - 2016.12.08 at 13h 16m 30s.xml">
-      <configuration name="Feature: baseFdd" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__baseFdd - 2016.12.08 at 13h 19m 34s.xml">
-      <configuration name="Feature: baseFdd" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__baseFdd - 2016.12.08 at 13h 20m 52s.xml">
-      <configuration name="Feature: baseFdd" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__baseFdd - 2016.12.08 at 13h 21m 56s.xml">
-      <configuration name="Feature: baseFdd" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__baseFdd - 2016.12.08 at 13h 24m 00s.xml">
-      <configuration name="Feature: baseFdd" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__baseFdd - 2016.12.08 at 13h 33m 35s.xml">
-      <configuration name="Feature: baseFdd" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__baseFdd - 2016.12.08 at 13h 34m 35s.xml">
-      <configuration name="Feature: baseFdd" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Feature__baseFdd - 2016.12.08 at 13h 43m 48s.xml">
       <configuration name="Feature: baseFdd" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -826,6 +813,27 @@
       <configuration name="Feature: baseFdd" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
     <history-entry file="Feature__baseFdd - 2016.12.08 at 13h 49m 39s.xml">
+      <configuration name="Feature: baseFdd" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__baseFdd - 2016.12.13 at 17h 00m 22s.xml">
+      <configuration name="Feature: baseFdd" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__baseFdd - 2016.12.13 at 17h 02m 27s.xml">
+      <configuration name="Feature: baseFdd" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__baseFdd - 2016.12.13 at 17h 05m 30s.xml">
+      <configuration name="Feature: baseFdd" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__baseFdd - 2016.12.15 at 16h 03m 47s.xml">
+      <configuration name="Feature: baseFdd" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__baseFdd - 2016.12.15 at 16h 33m 37s.xml">
+      <configuration name="Feature: baseFdd" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__baseFdd - 2016.12.15 at 16h 39m 21s.xml">
+      <configuration name="Feature: baseFdd" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__baseFdd - 2016.12.15 at 16h 58m 45s.xml">
       <configuration name="Feature: baseFdd" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
@@ -848,11 +856,12 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26072606" sideWeight="0.50215054" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32819384" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4944934" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819384" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46255508" sideWeight="0.49784946" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23655914" sideWeight="0.48809522" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20860215" sideWeight="0.48809522" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -863,7 +872,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -876,6 +884,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="- working framework&#10;- added base tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="- working framework&#10;- added base tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -904,12 +916,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/StepsImplementation.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/FddSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -920,8 +936,8 @@
           <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -932,10 +948,26 @@
           <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#992#993#0" expanded="true" />
-            <element signature="e#1084#1085#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#1036#1037#0" expanded="true" />
+            <element signature="e#1356#1357#0" expanded="true" />
+            <element signature="e#1437#1438#0" expanded="true" />
+            <element signature="e#1481#1482#0" expanded="true" />
+            <element signature="e#1563#1564#0" expanded="true" />
+            <element signature="e#1609#1610#0" expanded="true" />
+            <element signature="e#1691#1692#0" expanded="true" />
+            <element signature="e#1732#1733#0" expanded="true" />
+            <element signature="e#1814#1815#0" expanded="true" />
+            <element signature="e#1856#1857#0" expanded="true" />
+            <element signature="e#1938#1939#0" expanded="true" />
+            <element signature="e#1982#1983#0" expanded="true" />
+            <element signature="e#2064#2065#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -962,7 +994,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -974,12 +1008,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/StepsImplementation.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/FddSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -990,8 +1028,8 @@
           <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1002,10 +1040,26 @@
           <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#992#993#0" expanded="true" />
-            <element signature="e#1084#1085#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#1036#1037#0" expanded="true" />
+            <element signature="e#1356#1357#0" expanded="true" />
+            <element signature="e#1437#1438#0" expanded="true" />
+            <element signature="e#1481#1482#0" expanded="true" />
+            <element signature="e#1563#1564#0" expanded="true" />
+            <element signature="e#1609#1610#0" expanded="true" />
+            <element signature="e#1691#1692#0" expanded="true" />
+            <element signature="e#1732#1733#0" expanded="true" />
+            <element signature="e#1814#1815#0" expanded="true" />
+            <element signature="e#1856#1857#0" expanded="true" />
+            <element signature="e#1938#1939#0" expanded="true" />
+            <element signature="e#1982#1983#0" expanded="true" />
+            <element signature="e#2064#2065#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1032,7 +1086,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1044,12 +1100,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/StepsImplementation.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/FddSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1060,8 +1120,8 @@
           <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1072,10 +1132,26 @@
           <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#992#993#0" expanded="true" />
-            <element signature="e#1084#1085#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#1036#1037#0" expanded="true" />
+            <element signature="e#1356#1357#0" expanded="true" />
+            <element signature="e#1437#1438#0" expanded="true" />
+            <element signature="e#1481#1482#0" expanded="true" />
+            <element signature="e#1563#1564#0" expanded="true" />
+            <element signature="e#1609#1610#0" expanded="true" />
+            <element signature="e#1691#1692#0" expanded="true" />
+            <element signature="e#1732#1733#0" expanded="true" />
+            <element signature="e#1814#1815#0" expanded="true" />
+            <element signature="e#1856#1857#0" expanded="true" />
+            <element signature="e#1938#1939#0" expanded="true" />
+            <element signature="e#1982#1983#0" expanded="true" />
+            <element signature="e#2064#2065#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1135,29 +1211,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/runner/RunTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bdd_tem_features.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25869566">
           <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/WidgetPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1169,6 +1227,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/WidgetPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11590909">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09659091">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/baseFdd.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1177,14 +1257,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/Pages.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/LoginSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1498#1499#0" expanded="true" />
+            <element signature="e#1567#1568#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/runner/RunTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1192,21 +1294,85 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/FddPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="85" selection-start-line="33" selection-start-column="85" selection-end-line="33" selection-end-column="85" />
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#992#993#0" expanded="true" />
-            <element signature="e#1084#1085#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#1036#1037#0" expanded="true" />
+            <element signature="e#1356#1357#0" expanded="true" />
+            <element signature="e#1437#1438#0" expanded="true" />
+            <element signature="e#1481#1482#0" expanded="true" />
+            <element signature="e#1563#1564#0" expanded="true" />
+            <element signature="e#1609#1610#0" expanded="true" />
+            <element signature="e#1691#1692#0" expanded="true" />
+            <element signature="e#1732#1733#0" expanded="true" />
+            <element signature="e#1814#1815#0" expanded="true" />
+            <element signature="e#1856#1857#0" expanded="true" />
+            <element signature="e#1938#1939#0" expanded="true" />
+            <element signature="e#1982#1983#0" expanded="true" />
+            <element signature="e#2064#2065#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/StepsImplementation.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/FddSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46735394">
-          <caret line="98" column="55" selection-start-line="98" selection-start-column="55" selection-end-line="98" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="90" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/ToolsWidgets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/ToolsLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/ToolsFdd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/Tools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3549884">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

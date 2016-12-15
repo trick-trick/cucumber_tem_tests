@@ -4,9 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import web.BaseWebMobileElement;
 
-public class WidgetPage extends BaseWebMobileElement {
+public class WidgetPage extends Pages {
     public WidgetPage(WebDriver driver) {
         super(driver, 30);
     }
