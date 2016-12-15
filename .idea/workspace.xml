@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95bfa982-7150-451a-842f-c066ecf23f4f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber/formatter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber/jquery-1.8.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber/report.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-runner.RunTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/runner.RunTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/steps/StepsImplementation.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/steps/StepsImplementation.java" afterPath="$PROJECT_DIR$/src/test/java/steps/FddSteps.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pages/FddPage.class" afterPath="$PROJECT_DIR$/target/classes/pages/FddPage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" afterPath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pages/WidgetPage.class" afterPath="$PROJECT_DIR$/target/classes/pages/WidgetPage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pages/FddPage.java" afterPath="$PROJECT_DIR$/src/main/java/pages/FddPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pages/WidgetPage.java" afterPath="$PROJECT_DIR$/src/main/java/pages/WidgetPage.java" />
     </list>
     <ignored path="bdd_tem_features.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -802,7 +790,13 @@
       <option name="project" value="LOCAL" />
       <updated>1481215979012</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="- working framework&#10;- added base tests">
+      <created>1481814281651</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1481814281651</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
