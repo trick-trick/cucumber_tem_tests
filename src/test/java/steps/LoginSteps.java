@@ -17,14 +17,20 @@ import util.driver.WebDriverFactory;
 
 public class LoginSteps{
 
-    public static WebDriver driver;
-    public static WidgetPage widgetPage = new WidgetPage(driver);
-    public static LoginPage loginPage = new LoginPage(driver);
+    private static WebDriver driver;
+    private static WidgetPage widgetPage;
+    private static LoginPage loginPage;
+
+    private void initPage(){
+        widgetPage = new WidgetPage(driver);
+        loginPage = new LoginPage(driver);
+        WebDriverFactory driverFactory = new WebDriverFactory();
+        driver = driverFactory.getDriver();
+    }
 
     @Given("^new instance of Selenium WebDriver$")
     public void new_instance_of_Selenium_WebDriver() {
-        WebDriverFactory driverFactory = new WebDriverFactory();
-        driver = driverFactory.getDriver();
+        initPage();
         driver.manage().window().maximize();
     }
 

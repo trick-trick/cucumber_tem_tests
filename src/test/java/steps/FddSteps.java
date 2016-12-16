@@ -7,19 +7,20 @@ import cucumber.api.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.*;
 import pages.FddPage;
-import pages.Pages;
 import tools.Tools;
 import tools.ToolsFdd;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 
-public class FddSteps extends Pages{
-    public FddSteps(WebDriver driver, int timeOut) {
-        super(driver, timeOut);
+public class FddSteps{
+
+    private static WebDriver driver;
+    private static FddPage fddPage;
+
+    private void initPage() {
+        fddPage = new FddPage(driver);
     }
-    public static WebDriver driver;
-    public static FddPage fddPage = new FddPage(driver);
 
     @And("^user navigates to new FDD report page '(.+)'$")
     public void user_navigates_to_new_FDD_report_page_http_fdd_report(String url){
