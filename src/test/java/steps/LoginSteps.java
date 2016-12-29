@@ -15,32 +15,23 @@ import pages.LoginPage;
 import pages.WidgetPage;
 import util.driver.WebDriverFactory;
 
-public class LoginSteps{
-
-    private static WebDriver driver;
-    private static WidgetPage widgetPage;
-    private static LoginPage loginPage;
-
-    private void initPage(){
-        widgetPage = new WidgetPage(driver);
-        loginPage = new LoginPage(driver);
-        WebDriverFactory driverFactory = new WebDriverFactory();
-        driver = driverFactory.getDriver();
-    }
+public class LoginSteps extends BaseSteps{
 
     @Given("^new instance of Selenium WebDriver$")
     public void new_instance_of_Selenium_WebDriver() {
-        initPage();
-        driver.manage().window().maximize();
+        driverFactory = new WebDriverFactory();
+        driver = driverFactory.getDriver();
     }
 
     @When("^user navigates to '(.+)'$")
     public void user_navigates_to_http(String url) {
+        initPage();
         driver.get(url);
     }
 
     @And("^user login using the Username as '(.+)' and the Password as '(.+)'$")
     public void user_login_using_the_Username_as_user_and_the_Password_as_password(String user, String password) {
+        initPage();
         loginPage.usernameField().sendKeys(user);
         loginPage.passwordField().sendKeys(password);
         loginPage.loginButton().click();

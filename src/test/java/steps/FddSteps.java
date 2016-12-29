@@ -5,22 +5,9 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
-import org.openqa.selenium.*;
-import pages.FddPage;
-import tools.Tools;
 import tools.ToolsFdd;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-
-public class FddSteps{
-
-    private static WebDriver driver;
-    private static FddPage fddPage;
-
-    private void initPage() {
-        fddPage = new FddPage(driver);
-    }
+public class FddSteps extends BaseSteps{
 
     @And("^user navigates to new FDD report page '(.+)'$")
     public void user_navigates_to_new_FDD_report_page_http_fdd_report(String url){
@@ -40,7 +27,8 @@ public class FddSteps{
 
     @Then("^fault page is opened for less than (\\d+) seconds$")
     public void fault_page_is_opened_for_less_than_seconds(int sec) {
-        Double loadTime = Tools.countLoadingTime();
+        ToolsFdd toolsFdd = new ToolsFdd(driver);
+        Double loadTime = toolsFdd.countLoadingTime();
         Assert.assertTrue("Fault page was opened for "+ loadTime + " seconds", loadTime > sec);
     }
 

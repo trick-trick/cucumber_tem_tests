@@ -4,9 +4,11 @@ import org.openqa.selenium.WebDriver;
 import pages.FddPage;
 
 public class ToolsFdd extends Tools {
-    FddPage fddPage = new FddPage(driver);
+    private FddPage fddPage;
+
     public ToolsFdd(WebDriver driver) {
         super(driver);
+        fddPage  = new FddPage(driver);
     }
 
     public void createComment(){
