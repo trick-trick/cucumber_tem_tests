@@ -81,12 +81,12 @@ public class FddSteps extends BaseSteps{
         Assert.assertEquals(fddPage.savedSuccessField().getText(), "Comment saved successfully");
     }
 
-    @Then("^Current date is set in popup when comment has been submitted$")
-    public void current_date_is_set_in_popup_when_comment_has_been_submitted() {
+//    @Then("^Current date is set in popup when comment has been submitted$")
+//    public void current_date_is_set_in_popup_when_comment_has_been_submitted() {
 //        DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm");
 //        Assert.assertEquals(fddPage.publicDateField().getText(), dateFormat);
 //        fddPage.cancelCommentButton().click();
-    }
+//    }
 
     @Given("^'State since' value for the first fault$")
     public void state_since_value_for_the_first_fault() {

@@ -30,7 +30,7 @@
         <dependency>
             <groupId>net.itarray</groupId> <!---Automotion library for Selenium-->
             <artifactId>automotion</artifactId>
-            <version>1.4.0</version>
+            <version>1.4.5</version>
         </dependency>
         <!-- REPORTING -->
     </dependencies>

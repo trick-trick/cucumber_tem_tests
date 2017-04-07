@@ -9,10 +9,8 @@ import cucumber.api.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
-import pages.LoginPage;
-import pages.WidgetPage;
+
 import util.driver.WebDriverFactory;
 
 public class LoginSteps extends BaseSteps{
@@ -48,6 +46,8 @@ public class LoginSteps extends BaseSteps{
             driver.quit();
         }
     }
+
+
 
     @After
     public void embedScreenshotOnFail(Scenario s) {
