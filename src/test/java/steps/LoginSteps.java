@@ -47,8 +47,6 @@ public class LoginSteps extends BaseSteps{
         }
     }
 
-
-
     @After
     public void embedScreenshotOnFail(Scenario s) {
         if (s.isFailed()) {
